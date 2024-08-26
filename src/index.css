@@ -10,28 +10,7 @@
   font-family: "Rubik", sans-serif;
 }
 
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  70% {
-    transform: rotate(15deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.animate-wave {
-  display: inline-block;
-  animation: wave 0.8s infinite;
-}
-
-@keyframes move {
-  100% {
-    transform: translate3d(0, 0, 1px) rotate(360deg);
-  }
-}
+/*Fondo animado*/
 
 .background {
   position: absolute;
@@ -127,4 +106,19 @@
   animation-delay: -17s;
   transform-origin: -16vw -3vh;
   box-shadow: -66vmin 0 9.147095118426263vmin currentColor;
+}
+
+/*Mensaje de contactform*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
 }
