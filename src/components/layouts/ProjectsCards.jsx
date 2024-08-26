@@ -1,5 +1,6 @@
 import React from "react";
-
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import { BsGithub, BsArrowUpRightSquareFill } from "react-icons/bs";
 
 const ProjectsCards = ({
@@ -10,8 +11,21 @@ const ProjectsCards = ({
   appLink,
   sourceLink,
 }) => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+    trackVisibility: true,
+    delay: 100,
+  });
+
   return (
-    <div className="w-full max-w-screen-md mx-auto overflow-hidden mb-4 flex flex-col items-center bg-white p-4 drop-shadow-md rounded-md md:flex-row md:space-x-4 hover:drop-shadow-xl transform transition-all duration-300">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, scale: 0.8 }}
+      animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 0.8 }}
+      transition={{ duration: 0.5 }}
+      className="w-full max-w-screen-md mx-auto overflow-hidden mb-4 flex flex-col items-center bg-white p-4 drop-shadow-md rounded-md md:flex-row md:space-x-4 hover:drop-shadow-xl transform transition-all duration-300"
+    >
       <img className="w-80" src={image} alt={title} />
       <div className="flex flex-col flex-grow justify-between w-full">
         <div className="space-y-4">
@@ -36,11 +50,11 @@ const ProjectsCards = ({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <BsArrowUpRightSquareFill className="mr-1 w-7 h-7  hover:text-blue-regular transform transition-all duration-300" />
+            <BsArrowUpRightSquareFill className="mr-1 w-7 h-7 hover:text-blue-regular transform transition-all duration-300" />
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
