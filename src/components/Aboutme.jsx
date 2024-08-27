@@ -56,7 +56,7 @@ const Aboutme = () => {
               </div>
               <div className="flex gap-1">
                 <img src={reactjs} alt="html" className="w-6 h-6 " />
-                <span>Rect.js</span>
+                <span>React.js</span>
               </div>
               <div className="flex gap-1">
                 <img src={sass} alt="html" className="w-6 h-6" />
@@ -64,7 +64,7 @@ const Aboutme = () => {
               </div>
               <div className="flex gap-1">
                 <img src={tailwind} alt="html" className="w-6 h-6 " />
-                <span>Tailwind</span>
+                <span>Tailwind CSS</span>
               </div>
             </div>
           </div>
