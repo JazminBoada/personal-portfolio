@@ -59,10 +59,6 @@ const Aboutme = () => {
                 <span>React.js</span>
               </div>
               <div className="flex gap-1">
-                <img src={sass} alt="html" className="w-6 h-6" />
-                <span>SASS</span>
-              </div>
-              <div className="flex gap-1">
                 <img src={tailwind} alt="html" className="w-6 h-6 " />
                 <span>Tailwind CSS</span>
               </div>

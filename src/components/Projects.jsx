@@ -30,27 +30,20 @@ const Projects = () => {
               sourceLink="https://login-design-app.netlify.app/"
               appLink="https://github.com/JazminBoada/login-page"
             />
-            <ProjectsCards
-              image={img2}
-              title="Login Web App"
-              subtitle="HTML5 | TAILWIND | REACT.JS"
-              text="Diseño de formulario responsivo de registro, utilizando animaciones brindadas por CSS3 y Javascript para llevar a cabo el cambio de registro de inicio de sesión para registrarse por primera vez al sitio ficticio."
-              sourceLink="https://botanical-login-design.netlify.app/"
-              appLink="https://github.com/JazminBoada/login-design"
-            />
+
             <ProjectsCards
               image={img3}
               title="Todo List App"
               subtitle="HTML5 | CSS3 | JAVASCRIPT"
-              text="Diseño de formulario responsivo de registro, utilizando animaciones brindadas por CSS3 y Javascript para llevar a cabo el cambio de registro de inicio de sesión para registrarse por primera vez al sitio ficticio."
+              text="Creador de listas de tareas, se puede añadir, marcar y eliminar las tareas dadas, realizado con JAvascript y el diseño por CSS3. "
               sourceLink="https://todolist-design-app.netlify.app//"
               appLink="https://github.com/JazminBoada/todo-list"
             />
             <ProjectsCards
               image={img4}
-              title="Restaurant Web App"
+              title="Restaurant Landing Page"
               subtitle="HTML5 | TAILWIND | REACT.JS"
-              text="Diseño de formulario responsivo de registro, utilizando animaciones brindadas por CSS3 y Javascript para llevar a cabo el cambio de registro de inicio de sesión para registrarse por primera vez al sitio ficticio."
+              text="Diseño de landing page en donde captura la informacion sobre los menus de un restaurante. Diseño llevado a cabo con tailwind CSS y funcionalidades con react.js"
               sourceLink="https://restaurant-foodie-web.netlify.app/"
               appLink="https://github.com/JazminBoada/restaurant-website"
             />
