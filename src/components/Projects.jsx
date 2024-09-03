@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectsCards from "./layouts/ProjectsCards";
 import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import img4 from "../assets/img4.png";
 import img5 from "../assets/img5.png";
@@ -35,17 +34,17 @@ const Projects = () => {
               image={img3}
               title="Todo List App"
               subtitle="HTML5 | CSS3 | JAVASCRIPT"
-              text="Creador de listas de tareas, se puede añadir, marcar y eliminar las tareas dadas, realizado con JAvascript y el diseño por CSS3. "
+              text="Creador de listas de tareas, se puede añadir, marcar y eliminar las tareas dadas, realizado con Javascript y el diseño por CSS3. "
               sourceLink="https://todolist-design-app.netlify.app//"
               appLink="https://github.com/JazminBoada/todo-list"
             />
             <ProjectsCards
               image={img4}
-              title="Restaurant Landing Page"
+              title="Shop Landing Page"
               subtitle="HTML5 | TAILWIND | REACT.JS"
-              text="Diseño de landing page en donde captura la informacion sobre los menus de un restaurante. Diseño llevado a cabo con tailwind CSS y funcionalidades con react.js"
-              sourceLink="https://restaurant-foodie-web.netlify.app/"
-              appLink="https://github.com/JazminBoada/restaurant-website"
+              text="Sitio web realizado con React.js y librerias como icons, scroll, slick y framer motion. Diseñado con TailwindCSS, desde la perspectiva desktop first."
+              sourceLink="https://handmadegaia-landingpage.netlify.app/"
+              appLink="https://github.com/JazminBoada/shop-landing-page"
             />
             <ProjectsCards
               image={img5}

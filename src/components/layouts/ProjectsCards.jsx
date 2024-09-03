@@ -26,7 +26,7 @@ const ProjectsCards = ({
       transition={{ duration: 0.5 }}
       className="w-full max-w-screen-md mx-auto overflow-hidden mb-4 flex flex-col items-center bg-white p-4 drop-shadow-md rounded-md md:flex-row md:space-x-4 hover:drop-shadow-xl transform transition-all duration-300"
     >
-      <img className="w-80" src={image} alt={title} />
+      <img className="w-96" src={image} alt={title} />
       <div className="flex flex-col flex-grow justify-between w-full">
         <div className="space-y-4">
           <h2 className="font-bold text-2xl text-center">{title}</h2>
