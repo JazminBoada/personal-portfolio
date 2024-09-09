@@ -3,7 +3,6 @@ import html5 from "../assets/html-svg.svg";
 import css3 from "../assets/css-svg.svg";
 import javascript from "../assets/javascript-svg.svg";
 import reactjs from "../assets/reactjs-svg.svg";
-import sass from "../assets/sass-svg.svg";
 import tailwind from "../assets/tailwind-svg.svg";
 import { motion } from "framer-motion";
 
@@ -15,8 +14,8 @@ const Aboutme = () => {
       transition={{ duration: 1.5 }}
       className="relative overflow-hidden"
     >
-      <div className="bg-gray-200 p-10 text-gray-regular">
-        <main className="flex flex-col md-flex-row max-w-screen-xl mx-auto px-4 py-10 bg-white rounded-xl shadow-md md:border-l-4 md:border-blue-regular">
+      <div className="bg-gray-200 p-10 text-gray-regular dark:text-white dark:bg-dark-two">
+        <main className="flex flex-col md-flex-row max-w-screen-xl mx-auto px-4 py-10 bg-white rounded-xl shadow-md md:border-l-4 md:border-blue-regular dark:bg-dark-one">
           <div className="flex flex-col md:flex-row md:gap-14 border-b border-gray-300 pb-8">
             <h2 className="font-semibold text-2xl text-start mb-2 whitespace-nowrap">
               Sobre mi

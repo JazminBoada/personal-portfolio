@@ -24,7 +24,7 @@ const ProjectsCards = ({
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 0.8 }}
       transition={{ duration: 0.5 }}
-      className="w-full max-w-screen-md mx-auto overflow-hidden mb-4 flex flex-col items-center bg-white p-4 drop-shadow-md rounded-md md:flex-row md:space-x-4 hover:drop-shadow-xl transform transition-all duration-300"
+      className="w-full max-w-screen-md mx-auto overflow-hidden mb-4 flex flex-col items-center bg-white p-4 drop-shadow-md rounded-md md:flex-row md:space-x-4 hover:drop-shadow-xl transform transition-all duration-300 dark:bg-dark-one dark:text-white"
     >
       <img className="w-96" src={image} alt={title} />
       <div className="flex flex-col flex-grow justify-between w-full">
@@ -34,10 +34,10 @@ const ProjectsCards = ({
           <p className="text-justify">{text}</p>
         </div>
 
-        <div className="flex items-center justify-end pt-2 gap-2">
+        <div className="flex items-center md:justify-start justify-end pt-2 gap-2">
           <a
             href={appLink}
-            className="text-gray-700 underline inline-flex items-center"
+            className="text-gray-700 underline inline-flex items-center dark:text-white"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -46,7 +46,7 @@ const ProjectsCards = ({
 
           <a
             href={sourceLink}
-            className="text-gray-700 underline inline-flex items-center"
+            className="text-gray-700 underline inline-flex items-center dark:text-white"
             target="_blank"
             rel="noopener noreferrer"
           >

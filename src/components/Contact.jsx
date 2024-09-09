@@ -21,7 +21,7 @@ const Contact = () => {
       transition={{ duration: 1 }}
       className="project-container"
     >
-      <div className="bg-white text-gray-regular">
+      <div className="bg-white text-gray-regular dark:bg-dark-one dark:text-white">
         <main className="max-w-screen-md mx-auto px-4 py-10 flex flex-col items-center ">
           <h1 className="text-4xl font-semibold mb-10 text-center">Contacto</h1>
 

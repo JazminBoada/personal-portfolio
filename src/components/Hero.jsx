@@ -25,7 +25,7 @@ const Hero = () => {
           <span></span>
         </div>
 
-        <main className="max-w-screen-xl mx-auto px-4 md:py-10 py-20 text-gray-regular flex flex-col-reverse items-center justify-center md:flex-row md:items-start md:justify-between relative z-10">
+        <main className="max-w-screen-xl mx-auto px-4 md:py-10 py-20 text-gray-regular flex flex-col-reverse items-center justify-center md:flex-row md:items-start md:justify-between relative z-10  dark:text-white">
           <section className="mt-10 space-y-5 flex flex-col justify-center items-center md:items-start md:text-left">
             <h2 className="flex flex-row items-center md:text-xl sm:text-lg">
               ¡Hola! Mi nombre es Jazmín
@@ -44,7 +44,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-row items-center justify-center gap-4 mt-4 md:justify-start">
               <Link to="/contact-form">
-                <button className="border border-blue-regular p-2 rounded-full text-blue-regular shadow-md hover:shadow-md hover:shadow-blue-regular transform transition-all duration-300">
+                <button className="border border-blue-regular p-2 rounded-full text-blue-regular shadow-md hover:shadow-md hover:shadow-blue-regular transform transition-all duration-300 dark:bg-blue-regular dark:text-white">
                   Contáctame
                 </button>
               </Link>
@@ -52,7 +52,7 @@ const Hero = () => {
               <a
                 href="/cv-jazmin-boada.pdf"
                 download="CV_Jazmin_Boada.pdf"
-                className="flex flex-row border border-gray-regular p-2 rounded-full text-gray-regular shadow-md hover:shadow-md hover:shadow-gray-regular transform transition-all duration-300"
+                className="flex flex-row border border-gray-regular p-2 rounded-full text-gray-regular shadow-md hover:shadow-md hover:shadow-gray-regular transform transition-all duration-300 dark:border-blue-regular dark:text-blue-regular dark:hover:shadow-blue-regular"
               >
                 Descargar CV
                 <LuArrowDownToLine className="ml-2 w-5 h-5" />

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       animation: {
@@ -31,8 +32,16 @@ export default {
           regular: "#3b3b3b",
           dark: "#22184e",
         },
+        dark: {
+          one: "#202020",
+          two: "#2b2b2b",
+        },
+        green: {
+          regular: "#8bb475",
+          light: "#a2d885",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

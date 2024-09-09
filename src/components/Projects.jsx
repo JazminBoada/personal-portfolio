@@ -9,15 +9,9 @@ import img6 from "../assets/img6.png";
 const Projects = () => {
   return (
     <section className="project-container">
-      <div
-        className="bg-gray-200 p-10 text-gray-regular"
-        style={{
-          background:
-            "linear-gradient(156deg, rgba(229,231,235,1) 41%, rgba(177,176,252,1) 100%)",
-        }}
-      >
+      <div className="bg-gray-200 p-10 text-gray-regular  bg-[linear-gradient(156deg,rgba(229,231,235,1)_41%,rgba(177,176,252,1)_100%)]  dark:bg-[linear-gradient(156deg,rgba(43,43,43,1)_41%,rgba(83,80,254,1)_100%)]">
         <main className="flex flex-col">
-          <h1 className="sm:text-6xl text-4xl xl:pl-16 font-semibold mb-10">
+          <h1 className="sm:text-6xl text-4xl xl:pl-16 font-semibold mb-10 dark:text-white">
             Proyectos
           </h1>
           <section className="flex flex-wrap gap-4 justify-center">

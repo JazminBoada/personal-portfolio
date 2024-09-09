@@ -29,6 +29,10 @@
   z-index: -1;
 }
 
+.dark .background {
+  background: #202020;
+}
+
 .background span {
   width: 33vmin;
   height: 33vmin;
