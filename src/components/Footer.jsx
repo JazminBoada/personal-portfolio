@@ -16,7 +16,7 @@ const Footer = () => {
       transition={{ duration: 1 }}
       className="project-container"
     >
-      <footer className="border-t-2 border-gray-200 text-center p-4 text-gray-regular dark:bg-dark-one dark:text-white dark:border-dark-two">
+      <footer className="border-t-2 border-gray-200 text-center p-4 bg-white text-gray-regular dark:bg-dark-one dark:text-white dark:border-dark-two">
         <p>&copy; 2024 Jazmín Boada</p>
       </footer>
     </motion.section>

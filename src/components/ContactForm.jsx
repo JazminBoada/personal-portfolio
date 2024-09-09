@@ -27,7 +27,7 @@ const ContactForm = () => {
         <span></span>
         <span></span>
       </div>
-      <main className="flex flex-col md:max-w-screen-2xl md:mx-auto mt-2 py-16 px-10 text-gray-regular">
+      <main className="flex flex-col md:max-w-screen-2xl md:mx-auto mt-2 py-16 px-10 text-gray-regular dark:text-white">
         <div className="flex flex-col md:flex-row md:items-center md:justify-around gap-10">
           {state.succeeded ? (
             <div className="flex flex-col items-center animate-fadeIn">
@@ -47,7 +47,7 @@ const ContactForm = () => {
             >
               <h1 className="text-4xl font-semibold">Contáctame</h1>
               <input
-                className="placeholder-blue-regular p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100"
+                className="placeholder-blue-regular p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100 dark:bg-dark-one  bg-white"
                 id="nombre"
                 name="nombre"
                 type="text"
@@ -60,7 +60,7 @@ const ContactForm = () => {
                 errors={state.errors}
               />
               <input
-                className="placeholder-blue-regular p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100"
+                className="placeholder-blue-regular p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100 dark:bg-dark-one  bg-white"
                 id="email"
                 name="email"
                 type="email"
@@ -73,7 +73,7 @@ const ContactForm = () => {
                 errors={state.errors}
               />
               <textarea
-                className="placeholder-blue-regular h-40 p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100"
+                className="placeholder-blue-regular h-40 p-2 outline-none overflow-hidden rounded-md shadow-sm border border-blue-regular focus:border-b-4 transform transition-all duration-100 dark:bg-dark-one bg-white"
                 id="mensaje"
                 name="mensaje"
                 placeholder="Mensaje"
