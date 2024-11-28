@@ -34,15 +34,15 @@ const Projects = () => {
 
             <ProjectsCards
               image={img3}
-              title="Notes List App"
+              title="Todo List App"
               buttons={[
                 { title: "HTML5", icon: <FaHtml5 /> },
-                { title: "TailwindCSS", icon: <RiTailwindCssFill /> },
-                { title: "React.js", icon: <TbBrandReact /> },
+                { title: "CSS", icon: <FaCss3Alt /> },
+                { title: "JavaScript", icon: <IoLogoJavascript /> },
               ]}
-              text="Creador de notas desde la funcionalidad CRUD, realizado con react.js y Next.js"
-              sourceLink="https://github.com/JazminBoada/nextjs-todo-app"
-              appLink="https://note-app1-nextjs.vercel.app/"
+              text="Creador de listas de tareas, se puede añadir, marcar y eliminar las tareas dadas, realizado con Javascript y el diseño por CSS3. "
+              sourceLink="https://todolist-design-app.netlify.app//"
+              appLink="https://github.com/JazminBoada/todo-list"
             />
             <ProjectsCards
               image={img4}
